@@ -1,3 +1,5 @@
+/* Výsledek dotazu zobrazuje pro každý rok kategorii potravin s nejnižším nárůstem cen oproti roku předchozímu. */
+
 WITH priceTrend AS (
 	SELECT 
 	source_data.category_name,
