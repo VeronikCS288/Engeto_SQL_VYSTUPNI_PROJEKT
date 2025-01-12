@@ -1,4 +1,4 @@
--- dulezity je, ze specifikovali, ze chteji narust
+/* Výsledek zobrazuje pro každý rok v dynamickém sloupci hodnotu ANO/NE na základě porovnání meziroční změny v cenách a průměrné mzdě. Z výsledku je tedy vidět, že k výraznému nárůstu cen oproti mzdám v měřeném období nedošlo. */
 
 WITH pricesToPaychecksRatioTrend AS (
 	SELECT 
