@@ -1,3 +1,5 @@
+/* Výsledkem dotazu je počet dostupných jednotek mléka a chleba pro všechna odvětví v rámci období pro které jsou dostupná data v tabulce czechia_price. */
+
 WITH pricesToIncomeRatio AS (
 SELECT 
 	source_data.industry_branch_name,
