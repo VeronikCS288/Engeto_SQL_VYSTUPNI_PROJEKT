@@ -1,3 +1,8 @@
+/*
+Výsledek zobrazuje v dynamicky vytvořených sloupcích průměrnou mzdu v rámci roku (prumer_daneho_roku) daného řádku a následně průměrnou mzdu z předchozího roku (prumer_predchoziho_roku).
+Výsledek porovnání těchto dvou sloupců je znázorněn v posledním sloupci slovně, data jsou seřazena dle odvětví a následně dle roku.
+*/
+
 WITH paycheckTrend AS (
 	SELECT 
 	source_data.industry_branch_code,
