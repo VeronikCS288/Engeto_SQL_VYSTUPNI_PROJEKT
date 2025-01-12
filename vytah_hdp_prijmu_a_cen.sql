@@ -1,4 +1,6 @@
-SELECT 
+/* Výsledek zobrazuje změnu HDP, mezd a cen pro každý rok z dostupnými daty v "czechia_prices" oproti roku předchozímu. Z načteného výsledku je vidět, že průměrný růst příjmů a cen není přímo úměrný růstu HDP. */
+
+SELECT
 source_data.YEAR rok,
 AVG(source_data.gdp) AS "průměrné gdp",
 AVG(source_data.income) AS "průměrný příjem",
